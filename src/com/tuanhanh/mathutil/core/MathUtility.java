@@ -28,7 +28,9 @@ public class MathUtility {
             return 1;
         
         long product = 1;
-        for (int i = 2; i < n; i++) //make code wrong
+        for (int i = 2; i <= n; i++) //do not make code wrong
+                                     // iff upload this modification
+                                     // we will see the Green again
             product *= i;
         
         return product;
